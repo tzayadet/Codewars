@@ -8,7 +8,6 @@
 Soluciones personales a ejercicios de programación y consultas SQL de práctica. Los archivos mantienen nombres descriptivos y extensiones según su lenguaje.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/Codewars/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
   <a href="https://github.com/tzayadet/Codewars"><strong>SOURCE CODE</strong></a>
 </p>
 
@@ -48,7 +47,7 @@ Problem solving, syntax practice, basic data structures and algorithmic reasonin
 
 ## Showcase
 
-The [GitHub Pages showcase](https://tzayadet.github.io/Codewars/) is a catalogue of source files, not an online code runner. Deployment is gated by the `ENABLE_PAGES=true` Actions variable.
+The showcase source is available in `docs/`. It is a catalogue of source files, not an online code runner. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
 
 ## License
 
