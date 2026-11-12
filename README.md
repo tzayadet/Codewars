@@ -1,10 +1,20 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/PROGRAMMING_PRACTICE-CODEWARS-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Codewars"/>
+  <img src="https://img.shields.io/badge/PYTHON-SQL-101010?style=for-the-badge&logo=python&logoColor=00FF41" alt="Python and SQL"/>
+</p>
+
 # Codewars · Kata Solutions
 
-Soluciones personales a ejercicios de programación y consultas SQL de práctica. Los archivos conservan nombres descriptivos y extensiones según su lenguaje.
+Soluciones personales a ejercicios de programación y consultas SQL de práctica. Los archivos mantienen nombres descriptivos y extensiones según su lenguaje.
+
+<p align="center">
+  <a href="https://tzayadet.github.io/Codewars/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/Codewars"><strong>SOURCE CODE</strong></a>
+</p>
 
 ## Python kata
 
-| Kata | Archivo |
+| Kata | Solution |
 |---|---|
 | Even or Odd | [even_or_odd.py](even_or_odd.py) |
 | Hello, Name or World! | [hello_name_or_world.py](hello_name_or_world.py) |
@@ -16,26 +26,30 @@ Soluciones personales a ejercicios de programación y consultas SQL de práctica
 
 - [Simple WHERE and ORDER BY](sql_simple_where_order_by.sql)
 
-Las consultas SQL deben ejecutarse en un motor compatible y sobre las tablas requeridas por el reto. El repositorio contiene las soluciones, no la base de datos original.
+SQL queries must be executed in a compatible database engine and against the schema required by the challenge. The repository contains the solutions, not the original database.
 
-## Ejecutar y probar
+## Run and test
 
-Requisito: Python 3.12 o compatible.
+**Requirements:** Python 3.12 or a compatible version.
 
-Ejecuta `python -m unittest discover -s tests -v` para lanzar las pruebas.
+```bash
+python -m unittest discover -s tests -v
+```
 
-## Objetivo
+## What this repository is for
 
-Practicar resolución de problemas, sintaxis, estructuras básicas y razonamiento algorítmico. Las soluciones son apuntes de aprendizaje y pueden evolucionar a medida que se revisan los ejercicios.
+Problem solving, syntax practice, basic data structures and algorithmic reasoning. These are learning solutions and may change as exercises are reviewed.
 
-## Tecnologías
+## Technology
 
 - Python
 - SQL
 - unittest
 
-## Project showcase
+## Showcase
 
-[Open the GitHub Pages showcase](https://tzayadet.github.io/Codewars/) · [Showcase source](docs/index.html)
+The [GitHub Pages showcase](https://tzayadet.github.io/Codewars/) is a catalogue of source files, not an online code runner. Deployment is gated by the `ENABLE_PAGES=true` Actions variable.
 
-The page is a catalogue of source files, not an online code runner. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
+## License
+
+See [LICENSE](LICENSE).
