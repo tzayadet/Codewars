@@ -1,19 +1,28 @@
 # Codewars · Kata Solutions
 
-Colección personal de soluciones a ejercicios de programación y consultas SQL de práctica.
+Soluciones personales a ejercicios de programación y consultas SQL de práctica. Los archivos conservan nombres descriptivos y extensiones según su lenguaje.
 
-## Contenido
+## Python kata
 
-Los archivos incluyen pequeños retos de Python y SQL, como:
+| Kata | Archivo |
+|---|---|
+| Even or Odd | [even_or_odd.py](even_or_odd.py) |
+| Hello, Name or World! | [hello_name_or_world.py](hello_name_or_world.py) |
+| Make Upper Case | [make_upper_case.py](make_upper_case.py) |
+| Multiply | [multiply.py](multiply.py) |
+| Quarter of the year | [quarter_of_the_year.py](quarter_of_the_year.py) |
 
-- Par o impar.
-- Operaciones básicas.
-- Manipulación de cadenas.
-- Consultas con `WHERE` y `ORDER BY`.
+## SQL kata
 
-## Ejecución
+- [Simple WHERE and ORDER BY](sql_simple_where_order_by.sql)
 
-Las soluciones Python pueden ejecutarse con Python 3. Las consultas SQL deben ejecutarse en un motor compatible y con las tablas requeridas por cada kata.
+Las consultas SQL deben ejecutarse en un motor compatible y sobre las tablas requeridas por el reto. El repositorio contiene las soluciones, no la base de datos original.
+
+## Ejecutar y probar
+
+Requisito: Python 3.12 o compatible.
+
+Ejecuta `python -m unittest discover -s tests -v` para lanzar las pruebas.
 
 ## Objetivo
 
@@ -23,3 +32,4 @@ Practicar resolución de problemas, sintaxis, estructuras básicas y razonamient
 
 - Python
 - SQL
+- unittest
