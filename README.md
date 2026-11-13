@@ -47,7 +47,7 @@ Problem solving, syntax practice, basic data structures and algorithmic reasonin
 
 ## Showcase
 
-The showcase source is available in `docs/`. It is a catalogue of source files, not an online code runner. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
+The showcase source is available in `docs/`. It is a catalogue of source files, not an online code runner. GitHub Pages activation and the `ENABLE_PAGES=true` Actions variable are required before public deployment.
 
 ## License
 
